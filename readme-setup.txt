@@ -38,6 +38,7 @@
   2 git add filename.ext
   3 git commit -m "check-in-msg"
   # for github use:
+  # new edit added by sriram.Please let me know if you see it.
   4 git push origin master
   4 git status
   5 git checkout -- filename.ext
