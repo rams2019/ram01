@@ -1,0 +1,44 @@
+### ENV: Ubuntu / Visual Studio Code / Python / GIT
+
+### Ubuntu installation
+  1 Download Ubuntu desktop-version (Ubuntu n.n LTS image) @ https://www.ubuntu.com/download/desktop
+  2 Download Rufus tool @ https://rufus.ie/en_IE.html
+  3 Create bootable Ubuntu USB stick using Rufus tool
+  4 Boot your desktop/laptop using USB and follow instructions to install Ubuntu
+
+### Steps to install Visual Studio Code & configure for python
+  1 Goto https://code.visualstudio.com/ and download for Ubuntu platform and install
+  2 Next install Python extension for VS Code
+  3 Ensure pip3 is installed (whereis pip3)
+  4 Install pylint (sudo pip3 install pylint)
+  5 REFERENCE: https://code.visualstudio.com/docs/python/python-tutorial
+
+### Steps to install GIT
+  1 sudo apt-get install git
+  2 goto https://github.com and create an account there
+  3 git config --global user.name "ur-git-name"
+  4 git config --global user.email "xyz@gmail.com"
+  5 create a repo at the github website
+  6 in local folder use git init
+  7 git remote add origin https://github.com/user/repo.git
+  # YouTube: Linux Tutorials - How to Install and Configure Git & Repositorys on GitHub
+
+### Steps to clone GIT repo on a different machine
+    goto desired project folder and:
+  1 git clone https://github.com/ur-name/ur-repo.git
+    create new file
+  2 git add .
+  3 git commit -m "new file added"
+  4 git push origin master
+  5 git pull origin master
+
+### Steps to setup GIT branch (file states: modified / staged /committed)
+  # goto project root folder:
+  1 git init
+  2 git add filename.ext
+  3 git commit -m "check-in-msg"
+  # for github use:
+  4 git push origin master
+  4 git status
+  5 git checkout -- filename.ext
+# e.g. $ git clone git://github.com/pbatard/rufus
